@@ -1402,7 +1402,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 -------------------------------------------------------------- */
 #scroll-top {
 	position: fixed !important;
-	right: 25px;
+	right: 33px;
 	bottom: 0;
 	background-color: #ffc925;
 	color: #fff;
@@ -1418,9 +1418,11 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 	visibility: hidden;
 	z-index: 9999;
 	cursor: pointer;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+	-webkit-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
 }
 
 #scroll-top:hover {
@@ -1432,7 +1434,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 	filter: alpha(opacity=100);
 	opacity: 1;
 	visibility: visible;
-	bottom: 45px;
+	bottom: 95px;
 }
 
 /* Media Queries
